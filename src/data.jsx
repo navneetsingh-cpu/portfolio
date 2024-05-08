@@ -9,7 +9,7 @@ import {
   FaPython,
   FaSass,
 } from "react-icons/fa";
-
+import { quoteGeneratorImage } from "./images";
 export const links = [
   { id: nanoid(), href: "#home", text: "home" },
   { id: nanoid(), href: "#skills", text: "skills" },
@@ -123,4 +123,12 @@ export const projects = [
     title: "Ecommerce - Comfy Store ",
     text: "Comfy Store made in React",
   },
+  {
+    id: nanoid(),
+    img: quoteGeneratorImage,
+    url: "https://quote-generator-navneet.netlify.app/",
+    github: "https://github.com/navneetsingh-cpu/quote-generator",
+    title: "Quote Generator",
+    text: "Quote Generator in Angular",
+  }
 ];
