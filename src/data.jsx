@@ -9,7 +9,7 @@ import {
   FaPython,
   FaSass,
 } from "react-icons/fa";
-import { quoteGeneratorImage, unsplashImage } from "./images";
+import { quoteGeneratorImage, unsplashImage, mixMasterImage } from "./images";
 export const links = [
   { id: nanoid(), href: "#home", text: "home" },
   { id: nanoid(), href: "#skills", text: "skills" },
@@ -138,5 +138,13 @@ export const projects = [
     github: "https://github.com/navneetsingh-cpu/unsplash-images",
     title: "Image Search",
     text: "Image Search using React and Unsplash API",
+  },
+  {
+    id: nanoid(),
+    img: mixMasterImage,
+    url: "https://mixmaster-navneet.netlify.app/",
+    github: "https://github.com/navneetsingh-cpu/mix-master",
+    title: "Mix Master",
+    text: "The ultimate party sidekick app that fetches cocktails from the hilarious Cocktails DB API. With a flick of your finger, you'll unlock a treasure trove of enchanting drink recipes that'll make your taste buds dance and your friends jump with joy. Get ready to shake up your mixology game, one fantastical mocktail at a time, and let the laughter and giggles flow!",
   },
 ];
