@@ -20,6 +20,7 @@ import {
   canadaPopulationTracker,
   comfyStoreImg,
   gptGeniusImg,
+  propertyImg,
 } from "./images";
 export const links = [
   { id: nanoid(), href: "#home", text: "home" },
@@ -80,6 +81,14 @@ export const skills = [
 ];
 
 export const projects = [
+  {
+    id: nanoid(),
+    img: propertyImg,
+    url: "https://property-pulse-navneet.vercel.app/",
+    github: "https://github.com/navneetsingh-cpu/property-pulse",
+    title: "Property Pulse - NextJs full stack app ",
+    text: "Built on NextJs MongoDb",
+  },
   {
     id: nanoid(),
     img: gptGeniusImg,
