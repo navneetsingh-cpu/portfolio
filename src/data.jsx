@@ -21,6 +21,7 @@ import {
   comfyStoreImg,
   gptGeniusImg,
   propertyImg,
+  homeawayImg,
 } from "./images";
 export const links = [
   { id: nanoid(), href: "#home", text: "home" },
@@ -88,6 +89,14 @@ export const projects = [
     github: "https://github.com/navneetsingh-cpu/property-pulse",
     title: "Property Pulse - NextJs full stack app ",
     text: "Built on NextJs MongoDb",
+  },
+  {
+    id: nanoid(),
+    img: homeawayImg,
+    url: "https://homeaway-navneet.vercel.app/",
+    github: "https://github.com/navneetsingh-cpu/airbnb",
+    title: "HomeAway an Airbnb Clone",
+    text: "Next.js website is a robust and modern web application built with the latest technologies to ensure high performance and scalability. Developed using Next.js and TypeScript, it features a sleek user interface crafted with shadcn-ui. Data integrity and validation are handled with Zod, while Prisma ORM seamlessly manages database operations. We leverage Supabase as our backend database, providing a reliable and scalable data storage solution. This stack ensures a smooth and efficient user experience, combining powerful tools for both frontend and backend development.",
   },
   {
     id: nanoid(),
