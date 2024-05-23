@@ -20,9 +20,13 @@ import {
   canadaPopulationTracker,
   comfyStoreImg,
   gptGeniusImg,
-  propertyImg,
+  // propertyImg,
   homeawayImg,
 } from "./images";
+
+import propertyPulse from './assets/propertyPulse.png';
+
+
 export const links = [
   { id: nanoid(), href: "#home", text: "home" },
   { id: nanoid(), href: "#skills", text: "skills" },
@@ -84,7 +88,7 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
-    img: propertyImg,
+    img: propertyPulse,
     url: "https://property-pulse-navneet.vercel.app/",
     github: "https://github.com/navneetsingh-cpu/property-pulse",
     title: "Property Pulse - NextJs full stack app ",
@@ -96,8 +100,7 @@ export const projects = [
     url: "https://homeaway-navneet.vercel.app/",
     github: "https://github.com/navneetsingh-cpu/airbnb",
     title: "HomeAway an Airbnb Clone",
-    text: "Next.js website is a robust and modern web application built with the latest technologies to ensure high performance and scalability. Developed using Next.js and TypeScript, it features a sleek user interface crafted with shadcn-ui. Data integrity and validation are handled with Zod, while Prisma ORM seamlessly manages database operations. We leverage Supabase as our backend database, providing a reliable and scalable data storage solution. This stack ensures a smooth and efficient user experience, combining powerful tools for both frontend and backend development.",
-  },
+    text: "NextJs Full Stack Site built with Zod Validation, Prisma ORM and postgres SQL Db"  },
   {
     id: nanoid(),
     img: gptGeniusImg,
@@ -182,6 +185,6 @@ export const projects = [
     url: "https://mixmaster-navneet.netlify.app/",
     github: "https://github.com/navneetsingh-cpu/mix-master",
     title: "Mix Master",
-    text: "The ultimate party sidekick app that fetches cocktails from the hilarious Cocktails DB API. With a flick of your finger, you'll unlock a treasure trove of enchanting drink recipes that'll make your taste buds dance and your friends jump with joy. Get ready to shake up your mixology game, one fantastical mocktail at a time, and let the laughter and giggles flow!",
+    text: "Cocktail maker website built in React",
   },
 ];

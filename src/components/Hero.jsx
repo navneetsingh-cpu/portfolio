@@ -2,7 +2,7 @@ import heroImg from "../assets/hero.svg";
 import { FaGithubSquare, FaLinkedin, FaMedium } from "react-icons/fa";
 const Hero = () => {
   return (
-    <div className="bg-emerald-100 py-24">
+    <div className=" py-24">
       <div className="align-element grid md:grid-cols-2 items-center gap-8">
         <article>
           <h1 className="text-7xl font-bold tracking-wider">I am Navneet</h1>
