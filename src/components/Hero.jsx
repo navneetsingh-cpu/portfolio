@@ -27,13 +27,13 @@ const Hero = () => {
             >
               <FaLinkedin className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
             </a>
-            <a
+            {/* <a
               href="https://medium.com/@navneetskahlon"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaMedium className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
-            </a>
+            </a> */}
           </div>
         </article>
         <article className="hidden md:block">
