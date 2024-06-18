@@ -7,6 +7,7 @@ import {
   FaNodeJs,
   FaJava,
   FaPython,
+  FaCodiepie,
   FaSass,
 } from "react-icons/fa";
 import {
@@ -82,6 +83,12 @@ export const skills = [
     title: "Python",
     icon: <FaPython className="h-16 w-16 text-secondary" />,
     text: "Experienced in Python programming, proficient in developing applications, scripting, and data analysis. Skilled in machine learning techniques, including data preprocessing, model development, and evaluation using Python libraries such as Streamlit.",
+  },
+  {
+    id: nanoid(),
+    title: "C# .NET",
+    icon: <FaCodiepie className="h-16 w-16 text-secondary" />,
+    text: "Experienced in C# .Net / Reactive extensions",
   },
 ];
 
