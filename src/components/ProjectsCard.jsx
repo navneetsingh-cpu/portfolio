@@ -2,6 +2,13 @@ import { FaGithubSquare } from "react-icons/fa";
 import { TbWorldWww } from "react-icons/tb";
 
 const ProjectsCard = ({ url, img, github, title, text }) => {
+  const handleAnchorClick = () => {
+    setTimeout(() => {
+      console.log(document.getElementById("my_modal_1"));
+      document.getElementById("my_modal_1").close();
+    }, 500);
+  };
+
   return (
     <>
       <div
@@ -20,6 +27,7 @@ const ProjectsCard = ({ url, img, github, title, text }) => {
               target="_blank"
               rel="noopener noreferrer"
               className="tooltip"
+              onClick={handleAnchorClick}
               data-tip="Website"
             >
               <TbWorldWww className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
@@ -29,6 +37,7 @@ const ProjectsCard = ({ url, img, github, title, text }) => {
               target="_blank"
               rel="noopener noreferrer"
               className="tooltip"
+              onClick={handleAnchorClick}
               data-tip="Github Repo"
             >
               <FaGithubSquare className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
